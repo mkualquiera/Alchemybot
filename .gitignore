@@ -1,0 +1,4 @@
+.env
+state.pickle
+Alchemybotvenv
+**/__pycache__/
