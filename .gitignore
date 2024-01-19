@@ -2,3 +2,4 @@
 state.pickle
 Alchemybotvenv
 **/__pycache__/
+docker-compose.yaml

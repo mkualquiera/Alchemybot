@@ -44,11 +44,11 @@ async def on_add_substance(substance):
 
 
 new_state = False
-if not os.path.exists("state.pickle"):
+if not os.path.exists("data/state.pickle"):
     state = GameState(on_add_substance)
     new_state = True
 else:
-    with open("state.pickle", "rb") as f:
+    with open("data/state.pickle", "rb") as f:
         state = pickle.load(f)
 
     print("Loaded state from file")
