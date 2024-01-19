@@ -32,7 +32,7 @@ client = discord.Client(intents=intents)
 
 async def on_add_substance(substance):
     # save state
-    with open("state.pickle", "wb") as f:
+    with open("data/state.pickle", "wb") as f:
         pickle.dump(state, f)
 
     message = (
